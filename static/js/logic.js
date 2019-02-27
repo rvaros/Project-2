@@ -27,7 +27,7 @@ var baseMaps = {
 var myMap = L.map("map", {
     center: [37, -100],
     zoom: 4,
-    layers: [OpenMapSurfer_Roads, quakeMarkers]
+    layers: [OpenMapSurfer_Roads]
 });
 
 // Adding legend to the map
