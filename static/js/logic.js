@@ -35,25 +35,6 @@ var myMap = L.map("map", {
     layers: [OpenMapSurfer_Roads, quakeMarkers]
 });
 
-// Set up the legend
-var legend = L.control({ position: "bottomright" });
-legend.onAdd = function() {
-    var div = L.DomUtil.create("div", "info legend");
-    var limits = ["<2.5", "2.5-3.5", "3.5-4.5", ">4.5"];
-    var colors = ["#ffffb2", "#ffff00", "#ff9900", "#ff0000"];
-    var labels = [];
-
-    // Add min & max
-    var legendInfo = "<h1>Magnitude</h1>"
-    div.innerHTML = legendInfo;
-
-    limits.forEach(function(limit, index) {
-        labels.push("<li style=\"background-color: " + colors[index] + "\">"+limit+"</li>");
-    });
-
-    div.innerHTML += "<ul class=\"list-unstyled\">" + labels.join("") + "</ul>";
-    return div;
-};
 
 // Adding legend to the map
 legend.addTo(myMap);
