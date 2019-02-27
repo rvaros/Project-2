@@ -24,17 +24,11 @@ var baseMaps = {
     "Greyscale": OpenStreetMap_BlackAndWhite
 }
 
-var overlayMaps = {
-    "Earthquakes": quakeMarkers,
-    "Tectonic Plates": plateLayer
-}
-
 var myMap = L.map("map", {
     center: [37, -100],
     zoom: 4,
     layers: [OpenMapSurfer_Roads, quakeMarkers]
 });
-
 
 // Adding legend to the map
 legend.addTo(myMap);
