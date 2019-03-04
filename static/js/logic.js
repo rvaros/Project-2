@@ -14,7 +14,6 @@ d3.json(foreclosureJSON, function(err,data) {
             radius: foreclosure.current * 11000
         };
         foreclosureMarkers.addLayer(L.circle([foreclosure.latitude,foreclosure.longitude], format)
-
         );
     });
 });

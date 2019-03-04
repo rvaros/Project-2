@@ -16,7 +16,7 @@ d3.json(foreclosureJSON, function(err,data) {
             radius: foreclosure.current * 11000
         };
         foreclosureMarkers.addLayer(L.circle([foreclosure.latitude,foreclosure.longitude], format)
-
+            .bindPopup("<h3>" + foreclosure.state + "<h6><h6>Recession Average: " + foreclosure.recessionAvg + "%" +"<h6><h6>Current: " + foreclosure.current + "%")
         );
     });
 });
@@ -34,7 +34,7 @@ d3.json(foreclosureJSON, function(err,data) {
             radius: foreclosure.recessionavg * 10000
         };
         foreclosureMarkers.addLayer(L.circle([foreclosure.latitude,foreclosure.longitude], format)
-            .bindPopup("<h3>" + foreclosure.state + "<h6><h6>Recession Average: " + foreclosure.recessionavg + "%" +"<h6><h6>Current: " + foreclosure.current + "%")
+           
         );
     });
 });
