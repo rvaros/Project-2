@@ -1,4 +1,6 @@
-var foreclosureJSON = '../../CurrentRecessionForeclosure.json';
+var foreclosureJSON = '../../CurrentRecessionForeclosure2.json';
+
+var foreclosureJSON2 = '../../CurrentRecessionForeclosure3.json';
 
 var foreclosureMarkers = L.layerGroup();
 
@@ -29,13 +31,22 @@ d3.json(foreclosureJSON, function(err,data) {
             fillColor: "#B22222",
             fillOpacity: "0.5",
             weight: "1",
-            radius: foreclosure.recessionAvg * 10000
+            radius: foreclosure.recessionavg * 10000
         };
         foreclosureMarkers.addLayer(L.circle([foreclosure.latitude,foreclosure.longitude], format)
-            .bindPopup("<h3>" + foreclosure.state + "<h6><h6>Recession Average: " + foreclosure.recessionAvg + "%" +"<h6><h6>Current: " + foreclosure.current + "%")
+            .bindPopup("<h3>" + foreclosure.state + "<h6><h6>Recession Average: " + foreclosure.recessionavg + "%" +"<h6><h6>Current: " + foreclosure.current + "%")
         );
     });
 });
+
+d3.json(foreclosureJSON2, function createMarkers(data) {
+    var features = data.features
+    features.forEach((foreclosure,i) => {
+    foreclosureMarkers.addLayer(L.marker([foreclosure.latitude, foreclosure.longitude])
+            .bindPopup("<h3>" + foreclosure.state + "<h6><h6>Recession Average: " + foreclosure.recessionAvg + "%" +"<h6><h6>Current: " + foreclosure.current + "%")
+        );
+    });
+});  
 
 var OpenMapSurfer_Roads = L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
 	maxZoom: 19,

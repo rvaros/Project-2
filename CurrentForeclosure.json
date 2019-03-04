@@ -1,0 +1,305 @@
+{
+  "features": [
+  {
+    "latitude": 32.806671,
+    "longitude": -86.79113,
+    "state": "Alabama",
+    "recessionAvg": 1.69,
+    "current": 1.62
+  },
+  {
+    "latitude": 61.370716,
+    "longitude": -152.404419,
+    "state": "Alaska",
+    "recessionAvg": 0.87,
+    "current": 1.84
+  },
+  {
+    "latitude": 33.729759,
+    "longitude": -111.431221,
+    "state": "Arizona",
+    "recessionAvg": 13.51,
+    "current": 0.39
+  },
+  {
+    "latitude": 34.969704,
+    "longitude": -92.373123,
+    "state": "Arkansas",
+    "recessionAvg": 2.81,
+    "current": 0.65
+  },
+  {
+    "latitude": 36.116203,
+    "longitude": -119.681564,
+    "state": "California",
+    "recessionAvg": 18.74,
+    "current": 0.41
+  },
+  {
+    "latitude": 39.059811,
+    "longitude": -105.311104,
+    "state": "Colorado",
+    "recessionAvg": 8.79,
+    "current": 0.09
+  },
+  {
+    "latitude": 41.597782,
+    "longitude": -72.755371,
+    "state": "Connecticut",
+    "recessionAvg": 0,
+    "current": 2.62
+  },
+  {
+    "latitude": 39.318523,
+    "longitude": -75.507141,
+    "state": "Delaware",
+    "recessionAvg": 1.83,
+    "current": 3.26
+  },
+  {
+    "latitude": 38.897438,
+    "longitude": -77.026817,
+    "state": "District of Columbia",
+    "recessionAvg": 0,
+    "current": 0.93
+  },
+  {
+    "latitude": 27.766279,
+    "longitude": -81.686783,
+    "state": "Florida",
+    "recessionAvg": 3.16,
+    "current": 0.39
+  },
+  {
+    "latitude": 33.040619,
+    "longitude": -83.643074,
+    "state": "Georgia",
+    "recessionAvg": 0,
+    "current": 1.51
+  },
+  {
+    "latitude": 44.240459,
+    "longitude": -114.478828,
+    "state": "Idaho",
+    "recessionAvg": 0,
+    "current": 0.44
+  },
+  {
+    "latitude": 40.349457,
+    "longitude": -88.986137,
+    "state": "Illinois",
+    "recessionAvg": 0,
+    "current": 2.53
+  },
+  {
+    "latitude": 39.849426,
+    "longitude": -86.258278,
+    "state": "Indiana",
+    "recessionAvg": 5.76,
+    "current": 2.01
+  },
+  {
+    "latitude": 42.011539,
+    "longitude": -93.210526,
+    "state": "Iowa",
+    "recessionAvg": 1.11,
+    "current": 0.79
+  },
+  {
+    "latitude": 38.5266,
+    "longitude": -96.726486,
+    "state": "Kansas",
+    "recessionAvg": 1.74,
+    "current": 1.4
+  },
+  {
+    "latitude": 37.66814,
+    "longitude": -84.670067,
+    "state": "Kentucky",
+    "recessionAvg": 0.17,
+    "current": 0.11
+  },
+  {
+    "latitude": 44.693947,
+    "longitude": -69.381927,
+    "state": "Maine",
+    "recessionAvg": 0,
+    "current": 0.8
+  },
+  {
+    "latitude": 39.063946,
+    "longitude": -76.802101,
+    "state": "Maryland",
+    "recessionAvg": 0,
+    "current": 2
+  },
+  {
+    "latitude": 42.230171,
+    "longitude": -71.530106,
+    "state": "Massachusetts",
+    "recessionAvg": 0,
+    "current": 1.13
+  },
+  {
+    "latitude": 43.326618,
+    "longitude": -84.536095,
+    "state": "Michigan",
+    "recessionAvg": 13.18,
+    "current": 1.35
+  },
+  {
+    "latitude": 45.694454,
+    "longitude": -93.900192,
+    "state": "Minnesota",
+    "recessionAvg": 0,
+    "current": 0.63
+  },
+  {
+    "latitude": 32.741646,
+    "longitude": -89.678696,
+    "state": "Mississippi",
+    "recessionAvg": 0,
+    "current": 0.15
+  },
+  {
+    "latitude": 46.921925,
+    "longitude": -110.454353,
+    "state": "Montana",
+    "recessionAvg": 0.81,
+    "current": 0.57
+  },
+  {
+    "latitude": 41.12537,
+    "longitude": -98.268082,
+    "state": "Nebraska",
+    "recessionAvg": 0.55,
+    "current": 0.61
+  },
+  {
+    "latitude": 43.452492,
+    "longitude": -71.563896,
+    "state": "New Hampshire",
+    "recessionAvg": 0,
+    "current": 0.85
+  },
+  {
+    "latitude": 40.298904,
+    "longitude": -74.521011,
+    "state": "New Jersey",
+    "recessionAvg": 0,
+    "current": 2.27
+  },
+  {
+    "latitude": 34.840515,
+    "longitude": -106.248482,
+    "state": "New Mexico",
+    "recessionAvg": 0,
+    "current": 0.19
+  },
+  {
+    "latitude": 35.630066,
+    "longitude": -79.806419,
+    "state": "North Carolina",
+    "recessionAvg": 3.55,
+    "current": 0.82
+  },
+  {
+    "latitude": 47.528912,
+    "longitude": -99.784012,
+    "state": "North Dakota",
+    "recessionAvg": 0,
+    "current": 1.49
+  },
+  {
+    "latitude": 40.388783,
+    "longitude": -82.764915,
+    "state": "Ohio",
+    "recessionAvg": 3.73,
+    "current": 3.16
+  },
+  {
+    "latitude": 35.565342,
+    "longitude": -96.928917,
+    "state": "Oklahoma",
+    "recessionAvg": 0,
+    "current": 1.63
+  },
+  {
+    "latitude": 44.572021,
+    "longitude": -122.070938,
+    "state": "Oregon",
+    "recessionAvg": 0,
+    "current": 1.17
+  },
+  {
+    "latitude": 40.590752,
+    "longitude": -77.209755,
+    "state": "Pennsylvania",
+    "recessionAvg": 1.79,
+    "current": 2.2
+  },
+  {
+    "latitude": 35.747845,
+    "longitude": -86.692345,
+    "state": "Tennessee",
+    "recessionAvg": 3,
+    "current": 1.08
+  },
+  {
+    "latitude": 31.054487,
+    "longitude": -97.563461,
+    "state": "Texas",
+    "recessionAvg": 2.88,
+    "current": 0.67
+  },
+  {
+    "latitude": 40.150032,
+    "longitude": -111.862434,
+    "state": "Utah",
+    "recessionAvg": 2.23,
+    "current": 0.2
+  },
+  {
+    "latitude": 44.045876,
+    "longitude": -72.710686,
+    "state": "Vermont",
+    "recessionAvg": 0.91,
+    "current": 1.21
+  },
+  {
+    "latitude": 37.769337,
+    "longitude": -78.169968,
+    "state": "Virginia",
+    "recessionAvg": 2.48,
+    "current": 1.34
+  },
+  {
+    "latitude": 47.400902,
+    "longitude": -121.490494,
+    "state": "Washington",
+    "recessionAvg": 2.02,
+    "current": 0.62
+  },
+  {
+    "latitude": 38.491226,
+    "longitude": -80.954453,
+    "state": "West Virginia",
+    "recessionAvg": 0.16,
+    "current": 0.02
+  },
+  {
+    "latitude": 44.268543,
+    "longitude": -89.616508,
+    "state": "Wisconsin",
+    "recessionAvg": 0,
+    "current": 1.07
+  },
+  {
+    "latitude": 42.755966,
+    "longitude": -107.30249,
+    "state": "Wyoming",
+    "recessionAvg": 2.19,
+    "current": 2.38
+  }
+]
+}
