@@ -11,7 +11,7 @@ d3.json(foreclosureJSON, function(err,data) {
             fillColor: "#4169E1",
             fillOpacity: "3",
             weight: "1",
-            radius: foreclosure.current * 11000
+            radius: foreclosure.current * 15000
         };
         foreclosureMarkers.addLayer(L.circle([foreclosure.latitude,foreclosure.longitude], format)
         );
@@ -28,7 +28,7 @@ d3.json(foreclosureJSON, function(err,data) {
             fillColor: "#B22222",
             fillOpacity: "0.5",
             weight: "1",
-            radius: foreclosure.recessionAvg * 10000
+            radius: foreclosure.recessionAvg * 15000
         };
         foreclosureMarkers.addLayer(L.circle([foreclosure.latitude,foreclosure.longitude], format)
             .bindPopup("<h3>" + foreclosure.state + "<h6><h6>Recession Average: " + foreclosure.recessionAvg + "%" +"<h6><h6>Current: " + foreclosure.current + "%")
