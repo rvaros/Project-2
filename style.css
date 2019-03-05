@@ -1,0 +1,28 @@
+/* remove default margin and padding from body */
+body {
+  padding: 10;
+  margin: 10;
+}
+
+div {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+  }
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.arial {font-family: Arial; }
+.other {font-family: fantasy;}
+.helly {font-family: Helvetica;}
+
+H1 { text-align: center }
+H2 { text-align: center }
+script { text-align: center}
+
