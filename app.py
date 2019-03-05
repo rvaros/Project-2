@@ -1,15 +1,17 @@
+import os
+
 from flask import Flask, jsonify, render_template
 app = Flask(__name__)
 
 
-@app.route("/Map/")
+@app.route("/")
 def index():
     return render_template('index.html')
 
 
 @app.route("/line")
 def test():
-    data = ("foreclosure_table.csv")
+    data = ('foreclosure_table.json')
 
     return jsonify(data)
 
