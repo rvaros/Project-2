@@ -74,7 +74,7 @@ legend.onAdd = function() {
     div.innerHTML = legendInfo;
 
     limits.forEach(function(limit, index) {
-        labels.push("<li style=\"background-color: " + colors[index] + "\">"+limit+"</li>");
+        labels.push("<li style=\"background-color: " + colors[index] + ";color: white;\">"+limit+"</li>");
     });
 
     div.innerHTML += "<ul class=\"list-unstyled\">" + labels.join("") + "</ul>";
