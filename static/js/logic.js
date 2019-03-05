@@ -65,7 +65,7 @@ var myMap = L.map("map", {
 var legend = L.control({ position: "bottomright" });
 legend.onAdd = function() {
     var div = L.DomUtil.create("div", "info legend");
-    var limits = ["Recession Average", "Current"];
+    var limits = ["Recession Average (Jan 2008 - Jun 2009)", "Current"];
     var colors = ["#B22222", "#4169E1"];
     var labels = [];
 
