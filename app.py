@@ -1,19 +1,21 @@
 import os
 
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, url_for
 app = Flask(__name__)
 
 
-@app.route("/")
-def index():
-    return render_template('index.html')
+@app.route("/map")
+def map():
+    return render_template('Map/index.html')
 
 
-@app.route("/line")
-def test():
-    data = ('foreclosure_table.json')
+@app.route("/chart")
+def chart():
+    return render_template('Chart.js/index.html')
 
-    return jsonify(data)
+@app.route("/affordable")
+def affordable():
+    return render_template('Affordability Data/index/index.html')
 
 
 if __name__ == "__main__":
