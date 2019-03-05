@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Affordability</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-14 col-sm-14 ">
+        <h1>Housing Price per Square Foot and Median Income</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+     <div class="col-md-10 col-md-9">
+        <h2>List of Affordable Cities</h2>
+        <a href="assets/data/50 Affordable Lists.png"> <img class="img-fluid" src="assets/data/50 Affordable Lists.png"alt="List of Affordability" height="500" width="500"></a>
+      
+      </div>
+    </div>
+  </div>
+    
+    <div class="row">
+      <div class="col-md-10  col-md-9">
+        <div class="article">
+          <h2>Price per Square Foot Relative to Income: 2009 and Today</h2>
+          <p>By no surprise, at the depth of the recession in 2009 Housing price were at 20 year lows.  Long story short,
+            banks lended money beyond the means of borrowers.  This was a causation of the housing bubble burst.  Foreclosure numbers 
+            excellerated from 2008 to 2009.  Mortgage lending regulations were tightened.  Fewer people qualified for loans.  
+            Individual wealth was compromised, eonomic markets were depressed, small businesses folded and surviving companies
+            were strapped for cash.  This was a perfect storm of economic failure.  
+          </p>
+
+          <p>The bright side to this was that housing prices normalized.  Those who had not yet entered the market for a house
+            could now find value given approval for a loan or capital to pay cash. However, there were a number of geographic areas
+            hit hard by this recession.  We can see that nearly half of the states were realizing a median household income under 
+            $50,000.  With stricter lending guidelines and declining wealth, fewer households were affording mortgages causing a 
+            sharp increase in foreclosures and a decrease in housing prices.  
+
+          </p>
+
+          <p>Over the past 10 years, wages have risen and interest rates have been near all time lows. The result has been an 
+            economic boom. Housing prices, in most areas, are back to the highs that existed just before the bubble burst.  
+            Is this healthy sistainable growth or are we approaching another detrimental event?  From the list of Affordability 
+            provided by Zillow, we see that the San Francisco Bay Area cities, Southern California coastal towns and a couple 
+            metropolitan areas in Hawaii are facing housing problems.  Larger Midwestern cities have been a hotbed for real estate 
+            investors seeking value in the market in recent years.  Smaller cities in this area are still seeing very affordable 
+            pricing.  It seems people are not racing to pitch camp in the likes of Pine Bluff, Arkansas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>Forecslosure and Affordability Project: CRT :)</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
