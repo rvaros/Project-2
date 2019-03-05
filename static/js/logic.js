@@ -1,4 +1,4 @@
-var foreclosureJSON = '../../CurrentRecessionForeclosure.json';
+var foreclosureJSON = 'https://raw.githubusercontent.com/rvaros/U.S.-Housing-Affordability-and-Foreclosure-Percentage-Project/master/CurrentRecessionForeclosure.json';
 
 var foreclosureMarkers = L.layerGroup();
 
