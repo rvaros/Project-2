@@ -81,6 +81,8 @@ legend.onAdd = function() {
     return div;
 };
 
+
+
 // Adding legend to the map
 legend.addTo(myMap);
 
