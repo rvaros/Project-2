@@ -1,22 +1,24 @@
 import os
 
-from flask import Flask, jsonify, render_template, url_for
+from flask import Flask, jsonify, render_template
 app = Flask(__name__)
 
 
+@app.route("/")
+def home():
+    return render_template('homepage.html')
+
 @app.route("/map")
 def map():
-    return render_template('Map/index.html')
+    return render_template('map.html')
 
+@app.route("/chartjs")
+def chartjs():
+    return render_template('chartjs.html')
 
-@app.route("/chart")
-def chart():
-    return render_template('Chart.js/index.html')
-
-@app.route("/affordable")
-def affordable():
-    return render_template('Affordability Data/index/index.html')
-
+@app.route("/affordable-cities")
+def affordability():
+    return render_template('index.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5000)
