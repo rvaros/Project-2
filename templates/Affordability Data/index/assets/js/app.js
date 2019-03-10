@@ -1,12 +1,5 @@
 // D3 Animated Scatter Plot
 
-// Section 1: Pre-Data Setup
-// ===========================
-// Before we code any data visualizations,
-// we need to at least set up the width, height and margins of the graph.
-// Note: I also added room for label text as well as text padding,
-// though not all graphs will need those specifications.
-
 // Grab the width of the containing box
 var width = parseInt(d3.select("#scatter").style("width"));
 
@@ -70,8 +63,8 @@ function xTextRefresh() {
 }
 xTextRefresh();
 
-// Now we use xText to append three text SVG files, with y coordinates specified to space out the values.
-// 1. Poverty
+// Now we use xText to append two text SVG files, with y coordinates specified to space out the values.
+// 1. 2009 MEdian Household Income State Average
 xText
   .append("text")
   .attr("y", -26)
@@ -79,7 +72,7 @@ xText
   .attr("data-axis", "x")
   .attr("class", "aText active x")
   .text("2009 Median Household Income");
-// 2. Age
+// 2. Q4 2018 MEdian Household income State average
 xText
   .append("text")
   .attr("y", 0)
@@ -113,7 +106,7 @@ function yTextRefresh() {
 yTextRefresh();
 
 // Now we append the text.
-// 1. Obesity
+// 1. 2009 Housing Prices by Square foot
 yText
   .append("text")
   .attr("y", -26)
@@ -122,7 +115,7 @@ yText
   .attr("class", "aText active y")
   .text("2009 Housing Price per Square Foot");
 
-// 2. Smokes
+// 2. Q4 2018 Housing prices by Square foot
 yText
   .append("text")
   .attr("x", 0)
@@ -131,12 +124,6 @@ yText
   .attr("class", "aText inactive y")
   .text("Current Housing Price per Square Foot");
 
-
-// 2. Import our .csv file.
-// ========================
-// This data file includes state-by-state demographic data from the US Census
-// and measurements from health risks obtained
-// by the Behavioral Risk Factor Surveillance System.
 
 // Import our CSV data with d3's .csv import method.
 d3.csv("assets/data/StateAbbrChartData.csv").then(function(data) {
@@ -149,11 +136,8 @@ d3.csv("assets/data/StateAbbrChartData.csv").then(function(data) {
 // We called a "visualize" function on the data obtained with d3's .csv method.
 // This function handles the visual manipulation of all elements dependent on the data.
 function visualize(theData) {
-  // PART 1: Essential Local Variables and Functions
-  // =================================
   // curX and curY will determine what data gets represented in each axis.
-  // We designate our defaults here, which carry the same names
-  // as the headings in their matching .csv data file.
+ 
   var curX = "2009 income";
   var curY = "2009 sqFtPr";
 
@@ -164,7 +148,7 @@ function visualize(theData) {
   var yMin;
   var yMax;
 
-  // This function allows us to set up tooltip rules (see d3-tip.js).
+  // This function allows us to set up tooltip rules
   var toolTip = d3
     .tip()
     .attr("class", "d3-tip")
@@ -196,11 +180,7 @@ function visualize(theData) {
   // Call the toolTip function.
   svg.call(toolTip);
 
-  // PART 2: D.R.Y!
-  // ==============
   // These functions remove some repitition from later code.
-  // This will be more obvious in parts 3 and 4.
-
   // a. change the min and max for x
   function xMinMax() {
     // min will grab the smallest datum from the selected column.
@@ -241,17 +221,14 @@ function visualize(theData) {
     clickedText.classed("inactive", false).classed("active", true);
   }
 
-  // Part 3: Instantiate the Scatter Plot
-  // ====================================
   // This will add the first placement of our data and axes to the scatter plot.
 
   // First grab the min and max values of x and y.
   xMinMax();
   yMinMax();
 
-  // With the min and max values now defined, we can create our scales.
-  // Notice in the range method how we include the margin and word area.
-  // This tells d3 to place our circles in an area starting after the margin and word area.
+ // With the min and max values now defined, we can create our scales.
+ // This tells d3 to place our circles in an area starting after the margin and word area.
   var xScale = d3
     .scaleLinear()
     .domain([xMin, xMax])
@@ -263,7 +240,6 @@ function visualize(theData) {
     .range([height - margin - labelArea, margin]);
 
   // We pass the scales into the axis methods to create the axes.
-  // Note: D3 4.0 made this a lot less cumbersome then before. Kudos to mbostock.
   var xAxis = d3.axisBottom(xScale);
   var yAxis = d3.axisLeft(yScale);
 
@@ -327,9 +303,7 @@ function visualize(theData) {
     });
 
   // With the circles on our graph, we need matching labels.
-  // Let's grab the state abbreviations from our data
-  // and place them in the center of our dots.
-  theCircles
+   theCircles
     .append("text")
     // We return the abbreviation to .text, which makes the text the abbreviation.
     .text(function(d) {
@@ -361,8 +335,6 @@ function visualize(theData) {
       d3.select("." + d.State).style("stroke", "#e3e3e3");
     });
 
-  // Part 4: Make the Graph Dynamic
-  // ==========================
   // This section will allow the user to click on any label
   // and display the data it references.
 
