@@ -1,0 +1,386 @@
+[
+  {
+    "State": "AK",
+    "State_Name": "Alaska",
+    "2009 income": 70126,
+    "2009 sqFtPr": 187,
+    "current income": 79466,
+    "current sqFtPr": 201
+  },
+  {
+    "State": "AL",
+    "State_Name": "Alabama",
+    "2009 income": 42264,
+    "2009 sqFtPr": 74,
+    "current income": 50519,
+    "current sqFtPr": 78
+  },
+  {
+    "State": "AR",
+    "State_Name": "Arkansas",
+    "2009 income": 40647,
+    "2009 sqFtPr": 69,
+    "current income": 51077,
+    "current sqFtPr": 84
+  },
+  {
+    "State": "AZ",
+    "State_Name": "Arizona",
+    "2009 income": 45988,
+    "2009 sqFtPr": 123,
+    "current income": 54329,
+    "current sqFtPr": 171
+  },
+  {
+    "State": "CA",
+    "State_Name": "California",
+    "2009 income": 50051,
+    "2009 sqFtPr": 139,
+    "current income": 61063,
+    "current sqFtPr": 218
+  },
+  {
+    "State": "CO",
+    "State_Name": "Colorado",
+    "2009 income": 55069,
+    "2009 sqFtPr": 138,
+    "current income": 68300,
+    "current sqFtPr": 226
+  },
+  {
+    "State": "CT",
+    "State_Name": "Connecticut",
+    "2009 income": 64534,
+    "2009 sqFtPr": 152,
+    "current income": 73227,
+    "current sqFtPr": 147
+  },
+  {
+    "State": "FL",
+    "State_Name": "Florida",
+    "2009 income": 46694,
+    "2009 sqFtPr": 93,
+    "current income": 54624,
+    "current sqFtPr": 134
+  },
+  {
+    "State": "GA",
+    "State_Name": "Georgia",
+    "2009 income": 43438,
+    "2009 sqFtPr": 78,
+    "current income": 50947,
+    "current sqFtPr": 90
+  },
+  {
+    "State": "HI",
+    "State_Name": "Hawaii",
+    "2009 income": 63107,
+    "2009 sqFtPr": 387,
+    "current income": 77312,
+    "current sqFtPr": 554
+  },
+  {
+    "State": "IA",
+    "State_Name": "Iowa",
+    "2009 income": 51561,
+    "2009 sqFtPr": 108,
+    "current income": 66026,
+    "current sqFtPr": 137
+  },
+  {
+    "State": "ID",
+    "State_Name": "Idaho",
+    "2009 income": 47133,
+    "2009 sqFtPr": 109,
+    "current income": 57002,
+    "current sqFtPr": 155
+  },
+  {
+    "State": "IL",
+    "State_Name": "Illinois",
+    "2009 income": 48610,
+    "2009 sqFtPr": 92,
+    "current income": 58457,
+    "current sqFtPr": 91
+  },
+  {
+    "State": "IN",
+    "State_Name": "Indiana",
+    "2009 income": 45879,
+    "2009 sqFtPr": 78,
+    "current income": 56263,
+    "current sqFtPr": 98
+  },
+  {
+    "State": "KS",
+    "State_Name": "Kansas",
+    "2009 income": 45420,
+    "2009 sqFtPr": 112,
+    "current income": 55096,
+    "current sqFtPr": 136
+  },
+  {
+    "State": "KY",
+    "State_Name": "Kentucky",
+    "2009 income": 44671,
+    "2009 sqFtPr": 81,
+    "current income": 54525,
+    "current sqFtPr": 103
+  },
+  {
+    "State": "LA",
+    "State_Name": "Louisiana",
+    "2009 income": 44012,
+    "2009 sqFtPr": 77,
+    "current income": 48681,
+    "current sqFtPr": 92
+  },
+  {
+    "State": "MA",
+    "State_Name": "Massachusetts",
+    "2009 income": 58049,
+    "2009 sqFtPr": 182,
+    "current income": 74852,
+    "current sqFtPr": 236
+  },
+  {
+    "State": "MD",
+    "State_Name": "Maryland",
+    "2009 income": 60463,
+    "2009 sqFtPr": 131,
+    "current income": 68817,
+    "current sqFtPr": 134
+  },
+  {
+    "State": "ME",
+    "State_Name": "Maine",
+    "2009 income": 46571,
+    "2009 sqFtPr": 110,
+    "current income": 58504,
+    "current sqFtPr": 148
+  },
+  {
+    "State": "MI",
+    "State_Name": "Michigan",
+    "2009 income": 47772,
+    "2009 sqFtPr": 79,
+    "current income": 58058,
+    "current sqFtPr": 115
+  },
+  {
+    "State": "MN",
+    "State_Name": "Minnesota",
+    "2009 income": 54596,
+    "2009 sqFtPr": 131,
+    "current income": 68880,
+    "current sqFtPr": 170
+  },
+  {
+    "State": "MO",
+    "State_Name": "Missouri",
+    "2009 income": 46690,
+    "2009 sqFtPr": 81,
+    "current income": 54768,
+    "current sqFtPr": 101
+  },
+  {
+    "State": "MS",
+    "State_Name": "Mississippi",
+    "2009 income": 43028,
+    "2009 sqFtPr": 75,
+    "current income": 50492,
+    "current sqFtPr": 87
+  },
+  {
+    "State": "MT",
+    "State_Name": "Montana",
+    "2009 income": 46026,
+    "2009 sqFtPr": 171,
+    "current income": 58975,
+    "current sqFtPr": 212
+  },
+  {
+    "State": "NC",
+    "State_Name": "North Carolina",
+    "2009 income": 44199,
+    "2009 sqFtPr": 88,
+    "current income": 53418,
+    "current sqFtPr": 101
+  },
+  {
+    "State": "ND",
+    "State_Name": "North Dakota",
+    "2009 income": 48899,
+    "2009 sqFtPr": 114,
+    "current income": 61470,
+    "current sqFtPr": 170
+  },
+  {
+    "State": "NE",
+    "State_Name": "Nebraska",
+    "2009 income": 50022,
+    "2009 sqFtPr": 94,
+    "current income": 65100,
+    "current sqFtPr": 130
+  },
+  {
+    "State": "NH",
+    "State_Name": "New Hampshire",
+    "2009 income": 68907,
+    "2009 sqFtPr": 137,
+    "current income": 82252,
+    "current sqFtPr": 172
+  },
+  {
+    "State": "NJ",
+    "State_Name": "New Jersey",
+    "2009 income": 55298,
+    "2009 sqFtPr": 191,
+    "current income": 68295,
+    "current sqFtPr": 189
+  },
+  {
+    "State": "NM",
+    "State_Name": "New Mexico",
+    "2009 income": 43157,
+    "2009 sqFtPr": 112,
+    "current income": 45864,
+    "current sqFtPr": 121
+  },
+  {
+    "State": "NV",
+    "State_Name": "Nevada",
+    "2009 income": 53577,
+    "2009 sqFtPr": 116,
+    "current income": 59413,
+    "current sqFtPr": 196
+  },
+  {
+    "State": "NY",
+    "State_Name": "New York",
+    "2009 income": 51753,
+    "2009 sqFtPr": 113,
+    "current income": 62569,
+    "current sqFtPr": 131
+  },
+  {
+    "State": "OH",
+    "State_Name": "Ohio",
+    "2009 income": 46912,
+    "2009 sqFtPr": 76,
+    "current income": 56705,
+    "current sqFtPr": 93
+  },
+  {
+    "State": "OK",
+    "State_Name": "Oklahoma",
+    "2009 income": 45789,
+    "2009 sqFtPr": 69,
+    "current income": 55766,
+    "current sqFtPr": 80
+  },
+  {
+    "State": "OR",
+    "State_Name": "Oregon",
+    "2009 income": 46515,
+    "2009 sqFtPr": 137,
+    "current income": 59756,
+    "current sqFtPr": 204
+  },
+  {
+    "State": "PA",
+    "State_Name": "Pennsylvania",
+    "2009 income": 51812,
+    "2009 sqFtPr": 102,
+    "current income": 62239,
+    "current sqFtPr": 111
+  },
+  {
+    "State": "RI",
+    "State_Name": "Rhode Island",
+    "2009 income": 54332,
+    "2009 sqFtPr": 163,
+    "current income": 68900,
+    "current sqFtPr": 201
+  },
+  {
+    "State": "SC",
+    "State_Name": "South Carolina",
+    "2009 income": 46151,
+    "2009 sqFtPr": 99,
+    "current income": 53243,
+    "current sqFtPr": 118
+  },
+  {
+    "State": "SD",
+    "State_Name": "South Dakota",
+    "2009 income": 46547,
+    "2009 sqFtPr": 136,
+    "current income": 58925,
+    "current sqFtPr": 179
+  },
+  {
+    "State": "TN",
+    "State_Name": "Tennessee",
+    "2009 income": 41931,
+    "2009 sqFtPr": 77,
+    "current income": 50988,
+    "current sqFtPr": 99
+  },
+  {
+    "State": "TX",
+    "State_Name": "Texas",
+    "2009 income": 45080,
+    "2009 sqFtPr": 73,
+    "current income": 55000,
+    "current sqFtPr": 101
+  },
+  {
+    "State": "UT",
+    "State_Name": "Utah",
+    "2009 income": 58431,
+    "2009 sqFtPr": 155,
+    "current income": 74061,
+    "current sqFtPr": 221
+  },
+  {
+    "State": "VA",
+    "State_Name": "Virginia",
+    "2009 income": 48375,
+    "2009 sqFtPr": 117,
+    "current income": 59421,
+    "current sqFtPr": 130
+  },
+  {
+    "State": "WA",
+    "State_Name": "Washington",
+    "2009 income": 54329,
+    "2009 sqFtPr": 146,
+    "current income": 67273,
+    "current sqFtPr": 212
+  },
+  {
+    "State": "WI",
+    "State_Name": "Wisconsin",
+    "2009 income": 52163,
+    "2009 sqFtPr": 100,
+    "current income": 64300,
+    "current sqFtPr": 122
+  },
+  {
+    "State": "WV",
+    "State_Name": "West Virginia",
+    "2009 income": 41016,
+    "2009 sqFtPr": 70,
+    "current income": 47728,
+    "current sqFtPr": 82
+  },
+  {
+    "State": "WY",
+    "State_Name": "Wyoming",
+    "2009 income": 53629,
+    "2009 sqFtPr": 148,
+    "current income": 64245,
+    "current sqFtPr": 185
+  }
+]
